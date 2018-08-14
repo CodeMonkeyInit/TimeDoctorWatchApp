@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07666C78212371E10044DCDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666C77212371E10044DCDB /* AppDelegate.swift */; };
+		07666C7A212371E10044DCDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666C79212371E10044DCDB /* ViewController.swift */; };
+		07666C7D212371E10044DCDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07666C7B212371E10044DCDB /* Main.storyboard */; };
+		07666C7F212371E20044DCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07666C7E212371E20044DCDB /* Assets.xcassets */; };
+		07666C82212371E20044DCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07666C80212371E20044DCDB /* LaunchScreen.storyboard */; };
+		07666C8D212371E20044DCDB /* TimeDoctorAppleWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666C8C212371E20044DCDB /* TimeDoctorAppleWatchAppTests.swift */; };
+		07666C98212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666C97212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.swift */; };
+		07666C9D212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07666C9C212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app */; };
+		07666CA3212371E20044DCDB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07666CA1212371E20044DCDB /* Interface.storyboard */; };
+		07666CA5212371E30044DCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07666CA4212371E30044DCDB /* Assets.xcassets */; };
+		07666CAC212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07666CAB212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07666CB1212371E30044DCDB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666CB0212371E30044DCDB /* InterfaceController.swift */; };
+		07666CB3212371E30044DCDB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666CB2212371E30044DCDB /* ExtensionDelegate.swift */; };
+		07666CB5212371E30044DCDB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666CB4212371E30044DCDB /* NotificationController.swift */; };
+		07666CB7212371E30044DCDB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07666CB6212371E30044DCDB /* ComplicationController.swift */; };
+		07666CB9212371E40044DCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07666CB8212371E40044DCDB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07666C89212371E20044DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07666C6C212371E00044DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07666C73212371E10044DCDB;
+			remoteInfo = TimeDoctorAppleWatchApp;
+		};
+		07666C94212371E20044DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07666C6C212371E00044DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07666C73212371E10044DCDB;
+			remoteInfo = TimeDoctorAppleWatchApp;
+		};
+		07666C9E212371E20044DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07666C6C212371E00044DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07666C9B212371E20044DCDB;
+			remoteInfo = "TimeDoctorAppleWatchApp WatchKit App";
+		};
+		07666CAD212371E30044DCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07666C6C212371E00044DCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07666CAA212371E30044DCDB;
+			remoteInfo = "TimeDoctorAppleWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07666CC1212371E40044DCDB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				07666CAC212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666CC5212371E40044DCDB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				07666C9D212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07666C74212371E10044DCDB /* TimeDoctorAppleWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDoctorAppleWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07666C77212371E10044DCDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07666C79212371E10044DCDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07666C7C212371E10044DCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07666C7E212371E20044DCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07666C81212371E20044DCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07666C83212371E20044DCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07666C88212371E20044DCDB /* TimeDoctorAppleWatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDoctorAppleWatchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07666C8C212371E20044DCDB /* TimeDoctorAppleWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDoctorAppleWatchAppTests.swift; sourceTree = "<group>"; };
+		07666C8E212371E20044DCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07666C93212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDoctorAppleWatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07666C97212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDoctorAppleWatchAppUITests.swift; sourceTree = "<group>"; };
+		07666C99212371E20044DCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07666C9C212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeDoctorAppleWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07666CA2212371E20044DCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		07666CA4212371E30044DCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07666CA6212371E30044DCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07666CAB212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimeDoctorAppleWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07666CB0212371E30044DCDB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		07666CB2212371E30044DCDB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		07666CB4212371E30044DCDB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		07666CB6212371E30044DCDB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		07666CB8212371E40044DCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07666CBA212371E40044DCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07666CBB212371E40044DCDB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07666C71212371E10044DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C85212371E20044DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C90212371E20044DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666CA8212371E30044DCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07666C6B212371E00044DCDB = {
+			isa = PBXGroup;
+			children = (
+				07666C76212371E10044DCDB /* TimeDoctorAppleWatchApp */,
+				07666C8B212371E20044DCDB /* TimeDoctorAppleWatchAppTests */,
+				07666C96212371E20044DCDB /* TimeDoctorAppleWatchAppUITests */,
+				07666CA0212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App */,
+				07666CAF212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension */,
+				07666C75212371E10044DCDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07666C75212371E10044DCDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07666C74212371E10044DCDB /* TimeDoctorAppleWatchApp.app */,
+				07666C88212371E20044DCDB /* TimeDoctorAppleWatchAppTests.xctest */,
+				07666C93212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.xctest */,
+				07666C9C212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app */,
+				07666CAB212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07666C76212371E10044DCDB /* TimeDoctorAppleWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				07666C77212371E10044DCDB /* AppDelegate.swift */,
+				07666C79212371E10044DCDB /* ViewController.swift */,
+				07666C7B212371E10044DCDB /* Main.storyboard */,
+				07666C7E212371E20044DCDB /* Assets.xcassets */,
+				07666C80212371E20044DCDB /* LaunchScreen.storyboard */,
+				07666C83212371E20044DCDB /* Info.plist */,
+			);
+			path = TimeDoctorAppleWatchApp;
+			sourceTree = "<group>";
+		};
+		07666C8B212371E20044DCDB /* TimeDoctorAppleWatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07666C8C212371E20044DCDB /* TimeDoctorAppleWatchAppTests.swift */,
+				07666C8E212371E20044DCDB /* Info.plist */,
+			);
+			path = TimeDoctorAppleWatchAppTests;
+			sourceTree = "<group>";
+		};
+		07666C96212371E20044DCDB /* TimeDoctorAppleWatchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07666C97212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.swift */,
+				07666C99212371E20044DCDB /* Info.plist */,
+			);
+			path = TimeDoctorAppleWatchAppUITests;
+			sourceTree = "<group>";
+		};
+		07666CA0212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				07666CA1212371E20044DCDB /* Interface.storyboard */,
+				07666CA4212371E30044DCDB /* Assets.xcassets */,
+				07666CA6212371E30044DCDB /* Info.plist */,
+			);
+			path = "TimeDoctorAppleWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		07666CAF212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07666CB0212371E30044DCDB /* InterfaceController.swift */,
+				07666CB2212371E30044DCDB /* ExtensionDelegate.swift */,
+				07666CB4212371E30044DCDB /* NotificationController.swift */,
+				07666CB6212371E30044DCDB /* ComplicationController.swift */,
+				07666CB8212371E40044DCDB /* Assets.xcassets */,
+				07666CBA212371E40044DCDB /* Info.plist */,
+				07666CBB212371E40044DCDB /* PushNotificationPayload.apns */,
+			);
+			path = "TimeDoctorAppleWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07666C73212371E10044DCDB /* TimeDoctorAppleWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07666CC6212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp" */;
+			buildPhases = (
+				07666C70212371E10044DCDB /* Sources */,
+				07666C71212371E10044DCDB /* Frameworks */,
+				07666C72212371E10044DCDB /* Resources */,
+				07666CC5212371E40044DCDB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07666C9F212371E20044DCDB /* PBXTargetDependency */,
+			);
+			name = TimeDoctorAppleWatchApp;
+			productName = TimeDoctorAppleWatchApp;
+			productReference = 07666C74212371E10044DCDB /* TimeDoctorAppleWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07666C87212371E20044DCDB /* TimeDoctorAppleWatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07666CC9212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchAppTests" */;
+			buildPhases = (
+				07666C84212371E20044DCDB /* Sources */,
+				07666C85212371E20044DCDB /* Frameworks */,
+				07666C86212371E20044DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07666C8A212371E20044DCDB /* PBXTargetDependency */,
+			);
+			name = TimeDoctorAppleWatchAppTests;
+			productName = TimeDoctorAppleWatchAppTests;
+			productReference = 07666C88212371E20044DCDB /* TimeDoctorAppleWatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07666C92212371E20044DCDB /* TimeDoctorAppleWatchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07666CCC212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchAppUITests" */;
+			buildPhases = (
+				07666C8F212371E20044DCDB /* Sources */,
+				07666C90212371E20044DCDB /* Frameworks */,
+				07666C91212371E20044DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07666C95212371E20044DCDB /* PBXTargetDependency */,
+			);
+			name = TimeDoctorAppleWatchAppUITests;
+			productName = TimeDoctorAppleWatchAppUITests;
+			productReference = 07666C93212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		07666C9B212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07666CC2212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp WatchKit App" */;
+			buildPhases = (
+				07666C9A212371E20044DCDB /* Resources */,
+				07666CC1212371E40044DCDB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07666CAE212371E30044DCDB /* PBXTargetDependency */,
+			);
+			name = "TimeDoctorAppleWatchApp WatchKit App";
+			productName = "TimeDoctorAppleWatchApp WatchKit App";
+			productReference = 07666C9C212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		07666CAA212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07666CBE212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp WatchKit Extension" */;
+			buildPhases = (
+				07666CA7212371E30044DCDB /* Sources */,
+				07666CA8212371E30044DCDB /* Frameworks */,
+				07666CA9212371E30044DCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeDoctorAppleWatchApp WatchKit Extension";
+			productName = "TimeDoctorAppleWatchApp WatchKit Extension";
+			productReference = 07666CAB212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07666C6C212371E00044DCDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Денис Кулиев";
+				TargetAttributes = {
+					07666C73212371E10044DCDB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					07666C87212371E20044DCDB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 07666C73212371E10044DCDB;
+					};
+					07666C92212371E20044DCDB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 07666C73212371E10044DCDB;
+					};
+					07666C9B212371E20044DCDB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					07666CAA212371E30044DCDB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 07666C6F212371E00044DCDB /* Build configuration list for PBXProject "TimeDoctorAppleWatchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07666C6B212371E00044DCDB;
+			productRefGroup = 07666C75212371E10044DCDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07666C73212371E10044DCDB /* TimeDoctorAppleWatchApp */,
+				07666C87212371E20044DCDB /* TimeDoctorAppleWatchAppTests */,
+				07666C92212371E20044DCDB /* TimeDoctorAppleWatchAppUITests */,
+				07666C9B212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App */,
+				07666CAA212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07666C72212371E10044DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666C82212371E20044DCDB /* LaunchScreen.storyboard in Resources */,
+				07666C7F212371E20044DCDB /* Assets.xcassets in Resources */,
+				07666C7D212371E10044DCDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C86212371E20044DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C91212371E20044DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C9A212371E20044DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666CA5212371E30044DCDB /* Assets.xcassets in Resources */,
+				07666CA3212371E20044DCDB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666CA9212371E30044DCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666CB9212371E40044DCDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07666C70212371E10044DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666C7A212371E10044DCDB /* ViewController.swift in Sources */,
+				07666C78212371E10044DCDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C84212371E20044DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666C8D212371E20044DCDB /* TimeDoctorAppleWatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666C8F212371E20044DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666C98212371E20044DCDB /* TimeDoctorAppleWatchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07666CA7212371E30044DCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07666CB5212371E30044DCDB /* NotificationController.swift in Sources */,
+				07666CB7212371E30044DCDB /* ComplicationController.swift in Sources */,
+				07666CB3212371E30044DCDB /* ExtensionDelegate.swift in Sources */,
+				07666CB1212371E30044DCDB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07666C8A212371E20044DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07666C73212371E10044DCDB /* TimeDoctorAppleWatchApp */;
+			targetProxy = 07666C89212371E20044DCDB /* PBXContainerItemProxy */;
+		};
+		07666C95212371E20044DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07666C73212371E10044DCDB /* TimeDoctorAppleWatchApp */;
+			targetProxy = 07666C94212371E20044DCDB /* PBXContainerItemProxy */;
+		};
+		07666C9F212371E20044DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07666C9B212371E20044DCDB /* TimeDoctorAppleWatchApp WatchKit App */;
+			targetProxy = 07666C9E212371E20044DCDB /* PBXContainerItemProxy */;
+		};
+		07666CAE212371E30044DCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07666CAA212371E30044DCDB /* TimeDoctorAppleWatchApp WatchKit Extension */;
+			targetProxy = 07666CAD212371E30044DCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07666C7B212371E10044DCDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07666C7C212371E10044DCDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07666C80212371E20044DCDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07666C81212371E20044DCDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07666CA1212371E20044DCDB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07666CA2212371E20044DCDB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07666CBC212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07666CBD212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07666CBF212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = "TimeDoctorAppleWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		07666CC0212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = "TimeDoctorAppleWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		07666CC3212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				IBSC_MODULE = TimeDoctorAppleWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "TimeDoctorAppleWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		07666CC4212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				IBSC_MODULE = TimeDoctorAppleWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "TimeDoctorAppleWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		07666CC7212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07666CC8212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07666CCA212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDoctorAppleWatchApp.app/TimeDoctorAppleWatchApp";
+			};
+			name = Debug;
+		};
+		07666CCB212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDoctorAppleWatchApp.app/TimeDoctorAppleWatchApp";
+			};
+			name = Release;
+		};
+		07666CCD212371E40044DCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeDoctorAppleWatchApp;
+			};
+			name = Debug;
+		};
+		07666CCE212371E40044DCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HDVJ5PF4P;
+				INFOPLIST_FILE = TimeDoctorAppleWatchAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.TimeDoctorAppleWatchAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeDoctorAppleWatchApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07666C6F212371E00044DCDB /* Build configuration list for PBXProject "TimeDoctorAppleWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CBC212371E40044DCDB /* Debug */,
+				07666CBD212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07666CBE212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CBF212371E40044DCDB /* Debug */,
+				07666CC0212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07666CC2212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CC3212371E40044DCDB /* Debug */,
+				07666CC4212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07666CC6212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CC7212371E40044DCDB /* Debug */,
+				07666CC8212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07666CC9212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CCA212371E40044DCDB /* Debug */,
+				07666CCB212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07666CCC212371E40044DCDB /* Build configuration list for PBXNativeTarget "TimeDoctorAppleWatchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07666CCD212371E40044DCDB /* Debug */,
+				07666CCE212371E40044DCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07666C6C212371E00044DCDB /* Project object */;
+}
