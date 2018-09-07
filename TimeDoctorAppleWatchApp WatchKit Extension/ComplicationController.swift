@@ -13,6 +13,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     // MARK: - Timeline Configuration
     
+    
     func getSupportedTimeTravelDirections(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimeTravelDirections) -> Void) {
         handler([.forward, .backward])
     }
@@ -33,7 +34,17 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     func getCurrentTimelineEntry(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimelineEntry?) -> Void) {
         // Call the handler with the current timeline entry
-        handler(nil)
+        switch complication.family {
+        case .utilitarianLarge:
+            let template = CLKComplicationTemplateUtilitarianLargeFlat()
+            
+            template.textProvider = CLKSimpleTextProvider(text: TimeDoctorClient.timeToLeave)
+            
+            handler(CLKComplicationTimelineEntry(date: Date(), complicationTemplate: template))
+        default:
+            handler(nil)
+        }
+    
     }
     
     func getTimelineEntries(for complication: CLKComplication, before date: Date, limit: Int, withHandler handler: @escaping ([CLKComplicationTimelineEntry]?) -> Void) {
